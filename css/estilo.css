@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(50, 121, 121);
+}
+
+.container {
+    margin-top: 30px;
+    max-width: 50vw;
+    background-color: rgb(79, 156, 156);
+}
+
+h2 {
+    font-family: 'Segoe UI';
+    color:rgb(165, 231, 231);
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.tabela {
+    display: table;
+
+}
+
+.linha {
+    display: table-row;
+}
+
+.celula { 
+    display: table-cell;
+}
+
+.cabecalho {
+    display: table-header-group;
+}
+
+.cabecalho .celula {
+    font-weight: bold;
+    text-align: center;
+}
+
+.none {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: none;
+}
+    
